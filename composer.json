@@ -1,0 +1,33 @@
+{
+  "name": "exteon/pcntl",
+  "description": "Various process control functions for PHP under Linux",
+  "type": "library",
+  "homepage": "https://github.com/exteon/pcntl",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Dinu Marina"
+    }
+  ],
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Exteon\\Pcntl\\": [
+        "src"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Exteon\\Pcntl\\": [
+        "test"
+      ]
+    }
+  },
+  "require": {
+    "ext-pcntl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  }
+}
